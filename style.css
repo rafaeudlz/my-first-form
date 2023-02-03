@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, legend, h2 {
+  font-family: 'Staatliches', sans-serif;
+  
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  z-index: -1;
+
+  top: 0;
+  left: 0;
+  background: #535971;
+}
+
+.page {
+  margin: auto;
+  width: 736px;
+}
+
+header {
+  margin-top: 140px;
+  width: 345px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: #FFFFFF;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 18px;
+
+  color: #FFFFFF;
+}
+
+form {
+  margin-top: 58px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  min-height: 300px;
+
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset legend, h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  
+  color: #535971;
+  width: 100%;
+  padding-bottom: 8px;
+
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+fieldset legend {
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+  margin-top: 16px;
+  
+  color: #4E4958;
+}
+
+.input-wrapper span {
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 6px;
+  
+  color: #a394c4;
+}
+
+.input-wrapper label span:hover {
+  color: #4E4958;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+ 
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  
+  padding: 0 24px;
+  font-size: 16px;
+  color: #6c6a71;
+}
+
+.col-2 {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.col-3 {
+  display: flex;
+  gap: 24px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+}
+
+footer {
+  background: #535971;
+
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 53px 71px;
+  margin: auto;
+  margin-bottom: 100vh;
+  width: 737px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 0px 0px 20px 20px; 
+}
+
+footer .button {
+  font-family: 'Staatliches';
+  font-size: 20px;
+
+  height: 56px;
+  background: #FF5374;
+  border-radius: 20px;
+  border: 0;
+  color: #FFFFFF;
+}
+
+footer .button:hover {
+  background:#cb415d;
+}
